@@ -1,6 +1,7 @@
 {
   "name": "remix-electron-app",
   "version": "0.0.0",
+  "private": true,
   "main": "build/main.cjs",
   "scripts": {
     "dev": "remix-electron dev",
