@@ -1,0 +1,25 @@
+{
+  "name": "remix-electron-app",
+  "version": "0.0.0",
+  "main": "build/main.cjs",
+  "scripts": {
+    "dev": "remix-electron dev",
+    "build": "remix-electron build",
+    "start": "electron ."
+  },
+  "dependencies": {
+    "@remix-run/node": "^1.3.3",
+    "@remix-run/react": "^1.3.3",
+    "@remix-run/server-runtime": "^1.3.3",
+    "electron": "^17.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "remix-electron": "file:../remix-electron"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^1.3.3",
+    "@types/react": "^17.0.42",
+    "@types/react-dom": "^17.0.14",
+    "typescript": "^4.6.3"
+  }
+}
