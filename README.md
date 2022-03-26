@@ -1,5 +1,7 @@
 # remix-electron-template
 
+> This template is based on remix-electron version 2, which is currently **incomplete and undocumented!** Proceed at your own risk. 🙃
+
 Welcome to your new remix-electron project!
 
 - [remix-electron docs](https://github.com/itsMapleLeaf/remix-electron)
