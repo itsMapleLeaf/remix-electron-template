@@ -1,9 +1,9 @@
+import { createRemixBrowserWindow, initRemix } from "@remix-electron/main"
 import { app } from "electron"
 import { join } from "path"
-import { configure, createRemixBrowserWindow } from "remix-electron"
 
 app.on("ready", async () => {
-  await configure()
+  await initRemix()
 
   const win = await createRemixBrowserWindow({
     initialRoute: "/",
@@ -11,9 +11,7 @@ app.on("ready", async () => {
     show: false,
   })
 
-  if (!win.isVisible()) {
-    win.once("ready-to-show", () => win.show())
-  }
+  win.show()
 
   if (process.env.NODE_ENV === "development") {
     win.webContents.openDevTools()
