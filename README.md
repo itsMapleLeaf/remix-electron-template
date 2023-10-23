@@ -1,6 +1,8 @@
-# remix-electron-template
+# Do not use this!
 
-> This template is based on remix-electron version 2, which is currently **incomplete and undocumented!** Proceed at your own risk. 🙃
+This template is based on a version of remix-electron with its own compiler forked from Remix due to its lack of extensibility. Remix is moving to Vite, so that fork is no longer needed!
+
+## remix-electron-template
 
 Welcome to your new remix-electron project!
 
